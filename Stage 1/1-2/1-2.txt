@@ -1,0 +1,7 @@
+with 4 sigma and 5 kernel size i got matrix of gaussian blur, then i convolved it with 0.5 matrix 3x3 matrix and i got matrix 
+0.035228	0.038671	0.039892	0.038671	0.035228
+0.038671	0.042452	0.043792	0.042452	0.038671
+0.039892	0.043792	0.045175	0.043792	0.039892
+0.038671	0.042452	0.043792	0.042452	0.038671
+
+which is more or less optimal filter which we can use to obtain smooth regions for all layers. 
