@@ -1,0 +1,9 @@
+In general there is some set of filters which provided satisfying result for analysis.
+
+1. Gaussian Blur with kernel 3-5 depending on the picture.(We should always apply this 
+filter before extraction of binary layers. 
+2. Binary layer. 
+3. Then too smoothen the result we should apply median filter with kernel
+ 3-5 depending on the noise. 
+4. In case of dissolving boundries we can apply max filter, else if there is 
+some noise remaining min filter is good. 
